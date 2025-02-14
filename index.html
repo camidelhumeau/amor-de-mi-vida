@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para el amor de mi vida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="galeria activo" id="galeria">
+        <div class="imagenes">
+            <img src="amor1.jpg"><img src="amor11.jpg"><img src="amor3.jpg"><img src="amor4.jpg"><img src="amor5.jpg">
+            <img src="amor6.jpg"><img src="mor13.jpg"><img src="amor12.jpg"><img src="amor9.jpg"><img src="amor10.jpg">
+        </div>
+        <button class="boton" onclick="mostrarSeccion('carta')">Pulsa aquí, mi amor</button>
+    </div>
+
+    <div class="carta" id="carta">
+        <button class="boton" onclick="reproducirMusica()">Así suena nuestro amor, púlsame</button>
+        <audio id="cancion" src="magic.mp3.mp3"></audio>
+        <div class="carta-texto" style="text-align: center; max-width: 600px; margin: auto;">
+            <p>Mi amor, mi todo, mi universo entero:</p>
+            <p>Hoy es 14 de febrero, un día en el que el mundo celebra el amor, pero para mí, cada día contigo es una celebración de este. Han pasado 7 meses desde que nuestras vidas se cruzaron de una manera que jamás imaginé. 7 meses de amor intenso, de pasión desbordante, de risas, de caricias, de noches largas en las que hablar contigo se siente como si el tiempo dejara de existir. 7 meses en los que he aprendido lo que realmente significa amar a alguien con cada parte de mi ser.</p>
+            <p>No ha sido un camino fácil. Hemos discutido, hemos llorado, hemos tenido momentos en los que parecía que todo se desmoronaba… pero aquí estamos, más fuertes, más enamorados, más decididos a seguir juntos a pesar de todo. Porque nuestro amor no es frágil; nuestro amor es una tormenta, un incendio, un huracán de emociones que arrasa con todo a su alrededor. A veces duele, a veces quema, pero siempre nos encontramos en medio del caos, dispuestos a sanar, a crecer, a seguir amándonos como locos.</p>
+            <p>Cuando estoy contigo, el mundo deja de tener sentido. Las horas pasan volando, los minutos se escapan como arena entre los dedos, y todo lo que quiero es detener el tiempo, congelarlo en esos momentos donde nuestros cuerpos y nuestras almas se funden en uno solo. Eres mi refugio y mi aventura, mi paz y mi locura, la persona con la que quiero caminar en esta vida sin importar cuántas tormentas tengamos que atravesar.</p>
+            <p>Amo la forma en que me miras, como si fuera lo único que importa en el mundo. Amo la manera en que tus manos buscan las mías, la suavidad de tus labios, el calor de tu abrazo cuando el día ha sido difícil. Amo nuestras conversaciones infinitas, nuestras risas tontas, nuestras peleas absurdas que siempre terminan en reconciliaciones aún más apasionadas. Amo cada pequeño detalle de ti, desde tu voz hasta la forma en que dices mi nombre.</p>
+            <p>No sé qué nos depara el futuro, pero hay algo de lo que sí estoy segura: quiero vivirlo a tu lado. Quiero seguir amándote con esta intensidad que a veces asusta, pero que al mismo tiempo nos hace sentir vivos. Quiero que, pase lo que pase, siempre recordemos lo mucho que hemos luchado por este amor, lo fuerte que somos juntos y lo inquebrantable que es lo que sentimos.</p>
+            <p>Gracias por ser mi persona, mi amor infinito, mi compañero en este viaje. Te amo con todo mi ser, y cada día que pasa, este amor solo crece más y más.</p>
+            <p>Feliz San Valentín, mi vida.</p>
+            <p>-Cam</p>
+        </div>
+        <button class="boton" onclick="mostrarSeccion('cosas')">Cosas que amo de ti</button>
+        <button class="boton" onclick="mostrarSeccion('galeria')">Retorno</button>
+    </div>
+
+    <div class="cosas" id="cosas">
+        <h2>30 cosas que amo de ti</h2>
+        <ol class="lista-justificada">
+            <li><span class="justificado">Amo tu increíble sonrisa, que ilumina mi día por completo.</span></li>
+            <li><span class="justificado">Amo tus ojos color hazel, son tan profundos y hermosos que me pierdo en ellos.</span></li>
+            <li><span class="justificado">Amo la forma en que me abrazas, me haces sentir protegida y amada.</span></li>
+            <li><span class="justificado">Amo lo guapísimo que eres, me tienes completamente enamorada.</span></li>
+            <li><span class="justificado">Amo la forma en que me miras, como si fuera lo más especial del mundo.</span></li>
+            <li><span class="justificado">Amo lo caballeroso que eres, siempre cuidándome y tratándome con tanto amor.</span></li>
+            <li><span class="justificado">Amo que cocines para mí, lo haces con tanto cariño que me derrites.</span></li>
+            <li><span class="justificado">Amo lo delicioso que te queda todo lo que cocinas, eres increíble en la cocina.</span></li>
+            <li><span class="justificado">Amo cómo me haces sentir segura cuando estoy contigo.</span></li>
+            <li><span class="justificado">Amo la intensidad con la que nos amamos, es algo único.</span></li>
+            <li><span class="justificado">Amo cómo el tiempo pasa volando cuando estamos juntos.</span></li>
+            <li><span class="justificado">Amo lo apasionado que eres en todo lo que haces.</span></li>
+            <li><span class="justificado">Amo lo mucho que te preocupo, siempre estás pendiente de mí.</span></li>
+            <li><span class="justificado">Amo que, a pesar de nuestras peleas, siempre encontramos la manera de seguir adelante.</span></li>
+            <li><span class="justificado">Amo la paciencia que tienes conmigo, incluso cuando no es fácil.</span></li>
+            <li><span class="justificado">Amo la manera en que me abrazas fuerte, lleno de amor y calidez.</span></li>
+            <li><span class="justificado">Amo cómo nos entendemos sin necesidad de palabras.</span></li>
+            <li><span class="justificado">Amo que siempre busques la manera de sorprenderme.</span></li>
+            <li><span class="justificado">Amo tu voz, me calma y me enamora cada vez que la escucho.</span></li>
+            <li><span class="justificado">Amo lo amoroso que eres conmigo, cada pequeño gesto tuyo me hace feliz.</span></li>
+            <li><span class="justificado">Amo la química impresionante que tenemos, es algo mágico.</span></li>
+            <li><span class="justificado">Amo la confianza que compartimos, sé que puedo ser yo misma contigo.</span></li>
+            <li><span class="justificado">Amo la forma en que me besas, con tanta pasión y amor.</span></li>
+            <li><span class="justificado">Amo cómo me motivas a ser mejor cada día.</span></li>
+            <li><span class="justificado">Amo la conexión tan fuerte que tenemos, como si fuéramos uno solo.</span></li>
+            <li><span class="justificado">Amo cómo siempre encuentras la manera de hacerme sentir especial.</span></li>
+            <li><span class="justificado">Amo lo mucho que me amas y cómo me lo demuestras en cada detalle.</span></li>
+            <li><span class="justificado">Amo lo increíble que es tenerte en mi vida, no sé qué haría sin ti.</span></li>
+            <li><span class="justificado">Amo simplemente que eres tú, la persona que amo con locura, con cada parte de mi ser.</span></li>
+        </ol>
+        </ol>
+        </ol>
+        </ol>
+        <button class="boton" onclick="mostrarSeccion('galeria')">Retorno</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
